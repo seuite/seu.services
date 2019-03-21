@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SEUITE Docs</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+      new Docute({
+        target: '#docute',
+        title: 'Docs | SEUITE',
+
+        nav: [
+            {
+            title: 'Home',
+            link: '/'
+            },
+            {
+            title: 'GitHub',
+            link: 'https://seu-ite.github.io'
+            }
+        ],
+
+        sidebar: [
+          {
+          title: 'Intro', 
+          links: [
+            { 
+              title: 'Who Are we',
+              link: '/intro/WhoAreWe'
+            },  
+            {
+              title: 'Installation',
+              link: '/guide/installation'
+            }
+          ]
+          },
+          {    
+          title: 'Guide',
+          links: [
+            {
+             title: 'Customization',
+              link: '/guide/customization'
+            },
+            {
+              title: '基本组件设置',
+              link: '/guide/BasicComponents'
+            },
+            {
+              title: 'DDNS设置',
+              link: '/guide/DDNSSetUp.md'
+            },
+            {
+              title: 'CR看板食用指南',
+              link: '/guide/CRKanbanGuide'
+            }
+            ]
+          }, 
+          {
+          title: 'Server',
+          links: [
+            {
+              title: 'Linux文件结构',
+              link: '/server/LinuxFolders.md'
+            },
+            {
+              title: 'Offline Support',
+              link: '/guide/offline-support'
+            }
+            ]
+          },
+          {
+          title: 'Manual',
+          links: [
+            {
+              title: 'Linux奇技淫巧',
+              link: '/arch/UsefulLinuxCommandManual.md'
+            },
+            {
+              title: 'Offline Support',
+              link: '/guide/offline-support'
+            }
+            ]
+          },
+        ]
+        })  
+
+
+    </script>
+  </body>
+</html>
