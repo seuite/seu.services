@@ -39,9 +39,22 @@ $ service nginx start
 ```
 
 ## Docker
-### Docker加速
+### Docker安装
 ```
-$ curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f1361db2.m.daocloud.io
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+
+### Docker加速
+这里使用了我在阿里云上注册的docker加速器
+```
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://v8thd0yh.mirror.aliyuncs.com"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
 
 ### 查找容器内的用户名及密码
