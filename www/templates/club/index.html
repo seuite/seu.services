@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SEU Clubs | SEUITE</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+
+	
+	<!-- Waterfall core by TristanBlg https://github.com/TristanBlg/Isolde-->
+	<link rel="stylesheet" href="./css/sortable.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script type="text/javascript" src="./js/sortable.min.js"></script> 
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">SEU 社团平台</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://seu.services">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://club.seu.services">Clubs
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://seu-ite.github.io">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+	<main class="sortable">
+  	<!-- Page Content -->
+		<div class="container">
+			<!-- Jumbotron Header -->
+			<header class="jumbotron my-4">
+				<h1 class="display-3">Instead me, Stand we</h1>
+				<p class="lead">在这里，邂逅不同！</p>
+				<a href="#" class="btn btn-primary btn-lg">加入我们</a>
+			</header>
+		
+		
+ 		<div class="wrapper">
+			<ul class="sortable__nav nav">
+				<li>
+					<a data-sjslink="all" class="nav__link" > 
+						ALL
+					</a>
+				</li>
+				<li>
+					<a data-sjslink="tech" class="nav__link" data-toggle="tab" > 
+						Tech
+					</a>
+				</li>
+				<l>
+					<a data-sjslink="culture" class="nav__link" data-toggle="tab" > 
+						Culture
+					</a>
+					</li>
+			</ul>
+
+			<!-- Page Features -->
+				<div id="sortable" class="sjs-default">
+					<div data-sjsel="tech">
+						<div class="card">
+							<img class="card-img-top" src="https://i.loli.net/2019/03/23/5c962f470e22b.jpg" alt="">
+							<div class="card-body">
+								<h4 class="card-title">Computer Rescue</h4>
+								<p class="card-text">嘿，电脑有什么问题?</p>
+							</div>
+							<div class="card-footer">
+								<a href="http://cr.seu.services" class="btn btn-primary">Let's fix it!</a>
+							</div>
+						</div>
+					</div>
+
+					<div data-sjsel="tech">
+						<div class="card">
+							<img class="card-img-top" src="https://github.com/seumsc/seumsc.github.io/raw/master/resources/logo.jpg" alt="">
+							<div class="card-body">
+								<h4 class="card-title">微软学生俱乐部</h4>
+								<p class="card-text">予力众生，成就不凡</p>
+							</div>
+							<div class="card-footer">
+								<a href="https://seumsc.github.io/" class="btn btn-primary">View More -></a>
+							</div>
+						</div>
+					</div>
+
+					<div data-sjsel="culture">
+						<div class="card">
+							<img class="card-img-top" src="https://i.loli.net/2019/03/23/5c96515ad24f5.png" alt="">
+							<div class="card-body">
+								<h4 class="card-title">Linux俱乐部</h4>
+								<p class="card-text">Linux, what else?</p>
+							</div>
+							<div class="card-footer">
+								<a href="https://www.seulinux.online/" class="btn btn-primary">Just boot it</a>
+							</div>
+						</div>
+					</div>
+
+					<div data-sjsel="tech">
+						<div class="card">
+							<img class="card-img-top" src="https://i.loli.net/2019/03/24/5c967668e4ce0.png" alt="">
+							<div class="card-body">
+								<h4 class="card-title">SEU-ITE</h4>
+								<p class="card-text">我为人人，人人为我</p>
+							</div>
+							<div class="card-footer">
+								<a href="https://seu-ite.github.io/" class="btn btn-primary">为你，千千万万遍</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- /.container -->
+	
+	<script type="text/javascript">
+		document.querySelector('#sortable').sortablejs({
+			responsive: {
+				1360: {
+        columns: 4
+				},
+				768: {
+					columns: 3
+				},
+				0: {
+					columns: 2
+				},
+			},
+			margin: 15
+		})
+	</script>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; SEUITE 2019</p>
+    </div>
+    <!-- /.container -->
+	</footer>
+	
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
