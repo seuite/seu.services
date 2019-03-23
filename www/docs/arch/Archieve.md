@@ -26,3 +26,7 @@
 - Linux俱乐部Logo.png(5.06KB):
     - 引用：https://i.loli.net/2019/03/23/5c96515ad24f5.png
     - 删除：https://sm.ms/delete/ThJzRuaYlVQNqoG
+
+- CR俱乐部Logo.jpg(4.7KB):
+    - 引用：https://i.loli.net/2019/03/24/5c96a21e8de94.jpg
+    - 删除：https://sm.ms/delete/nQsjlNIeXpEK3Ra
