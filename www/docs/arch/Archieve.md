@@ -19,3 +19,6 @@
     - 引用：https://i.loli.net/2019/03/21/5c935c496d8a4.png
     - 删除：https://sm.ms/delete/A5m2DoUzvG83NSM
 
+- Linux俱乐部Logo.png(5.06KB):
+    - 引用：https://i.loli.net/2019/03/23/5c96515ad24f5.png
+    - 删除：https://sm.ms/delete/ThJzRuaYlVQNqoG
