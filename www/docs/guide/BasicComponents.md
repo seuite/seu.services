@@ -37,11 +37,35 @@ Start the Nginx
 ```
 $ service nginx start
 ```
+### Nginx容器
+重载配置
+```
+docker exec -it nginx /etc/init.d/nginx reload
+```
 
 ## Docker
 ### Docker安装
+使用阿里云镜像加速，阿里云镜像每十分钟与docker官方镜像进行同步（2019-3-20）
 ```
-curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+sudo curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+建议一同安装docker-compose
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+**注意：** 此处安装的docker和docker-compose使用的1.23.2版本均乃官方截止2019-3-20的最新版本，请阅读官方文档以确定你所应安装的docker-compose版本
+- [Docker](https://docs.docker.com/install/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
+
+启动docker服务
+```
+sudo systemctl start docker
+```
+
+加载一个hello-world容器来确认docker正常安装
+```
+sudo docker run hello-world
 ```
 
 ### Docker加速
