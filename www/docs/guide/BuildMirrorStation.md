@@ -3,8 +3,6 @@
 
 由于学校官方镜像站常年处于欠维护状态，故我们单独维护了这样一个非官方镜像站。现已支持CentOS，Ubuntu和EPEL源的rsync和http(s)
 
-# 搭建步骤
-
 ## 1. 硬件环境
 服务器硬件参数如下：
 > CPU: 32 核心 3.0GHz
@@ -214,7 +212,7 @@ nginx -s reload #重新加载nginx配置文件
 ```
 你的镜像站已经准备就绪，继续你的旅途吧！
 
-# 附录：加入官方Mirror List教程
+## 附录：加入官方Mirror List教程
 各上游源要求不同，请到相关页面确认
 
 ## 成为CentOS注册公开源之一
@@ -242,6 +240,7 @@ nginx -s reload #重新加载nginx配置文件
     Email contact: (where we'll send notifications for issues with your mirror)
     Mirroring AltArch: yes/no (and if so, let us know the URLs, as those will be different from your http/https/rsync paths for CentOS)
     ```
+
 ## 成为Ubuntu注册公开源之一
 1. [注册](https://login.launchpad.net/jA7wF593j5xIkpxQ/+decide)
 2. 填写资料
