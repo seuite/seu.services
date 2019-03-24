@@ -102,8 +102,8 @@ ca_cert = ""
 ```
 [global]
 name = "centos_worker"
-log_dir = "/mirrors/log/tunasync/{{.Name}}"
-mirror_dir = "/mirrors"
+log_dir = "/home/mirrors/log/tunasync/{{.Name}}"
+mirror_dir = "/home/mirrors"
 concurrent = 10
 interval = 1440
 
