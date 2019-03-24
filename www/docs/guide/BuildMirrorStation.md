@@ -160,11 +160,11 @@ su mirrors
 ```
 - 启动manager服务（后台进程）：
 ```
-./tunasync manager --config /home/mirrors/tunasync/conf/manager.conf >> /mirrors/log/mirrorlog/manager.log &
+./tunasync manager --config /home/mirrors/tunasync/conf/manager.conf >> /home/mirrors/log/mirrorlog/manager.log &
 ```
 - 开启 worker 服务（根据需要同步的镜像开启，替换'$workername'为你需要的镜像）：
 ```
-./tunasync worker --config /home/mirrors/tunasync/conf/worker-'$workername'.conf >> /mirrors/log/mirrorlog/worker-'$workername'.log &
+./tunasync worker --config /home/mirrors/tunasync/conf/worker-'$workername'.conf >> /home/mirrors/log/mirrorlog/worker-'$workername'.log &
 ```
 此时镜像就已经开始从上游源同步下来了
 
@@ -184,6 +184,7 @@ wget -c http://localhost:14242/jobs -O /mirrors/jobs.json -o /mirrors/log/plog/w
 
 ### rsync
 **不推荐小型镜像站开放rsync服务**
+
 rsync的io负载较大，建议配置好多级缓存后再开启
 
 ### ftp
