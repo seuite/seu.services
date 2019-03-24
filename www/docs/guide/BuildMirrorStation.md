@@ -180,13 +180,13 @@ wget -c http://localhost:14242/jobs -O /mirrors/jobs.json -o /mirrors/log/plog/w
 ```
 以上任务可以整合为crontab定时任务，并同步到 web 前端页面中。
 
-# 提供服务
+## 提供服务
 
-## rsync
+### rsync
 **不推荐小型镜像站开放rsync服务**
 rsync的io负载较大，建议配置好多级缓存后再开启
 
-## ftp
+### ftp
 **推荐使用sftp或ftps**
 
 ### sftp
