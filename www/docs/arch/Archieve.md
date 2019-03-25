@@ -34,3 +34,7 @@
 - ClubCardSample.jpg(22.8KB):
     - 引用：https://i.loli.net/2019/03/25/5c982cb2c7c3e.jpg
     - 删除：https://sm.ms/delete/MRtDKsScxo4E5aG
+
+- Logo_Makerspace.png(10KB)
+    - 引用：https://i.loli.net/2019/03/25/5c98422ce0d46.png
+    - 删除：https://sm.ms/delete/EKY3tXNMJF9UeRw
