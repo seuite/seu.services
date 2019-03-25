@@ -30,3 +30,7 @@
 - CR俱乐部Logo.jpg(4.7KB):
     - 引用：https://i.loli.net/2019/03/24/5c96a21e8de94.jpg
     - 删除：https://sm.ms/delete/nQsjlNIeXpEK3Ra
+
+- ClubCardSample.jpg(22.8KB):
+    - 引用：https://i.loli.net/2019/03/25/5c982cb2c7c3e.jpg
+    - 删除：https://sm.ms/delete/MRtDKsScxo4E5aG

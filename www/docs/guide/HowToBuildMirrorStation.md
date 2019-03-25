@@ -1,19 +1,17 @@
 
-# SEUITE镜像站
-
-由于学校官方镜像站常年处于欠维护状态，故我们单独维护了这样一个非官方镜像站。现已支持CentOS，Ubuntu和EPEL源的rsync和http(s)
+# 如何搭建一个镜像站
 
 ## 1. 硬件环境
-服务器硬件参数如下：
-> CPU: 32 核心 3.0GHz
+服务器推荐硬件参数如下：
+>    CPU: 8 核心 2.5GHz 以上
 >
-> 内存: 16 GB
->  
-> 硬盘: 6 TB (3TBx2 LVM)
+>    内存: 32 GB 以上
 >
-> 网络: 百兆对等带宽
+>    硬盘: 2TB 以上
+>
+>    网络: 百兆上行带宽及以上
 
-本镜像站所用容量为
+作为参考，本镜像站已用硬盘容量为
 - CentOS 154.38G
 - EPEL 232.33G
 - Ubuntu 1.30T
@@ -248,3 +246,10 @@ nginx -s reload #重新加载nginx配置文件
 3. 等待认证
 
 恭喜你，你成为Ubuntu官方注册公开源之一啦
+
+## Reference & 致谢
+1. [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
+2. [搭建开源软件镜像站 (中山大学)](https://fangpeishi.com/build_opensource_mirror.html)
+3. 看到现在的你
+
+![Susan](https://i.loli.net/2019/03/21/5c93ac20dc3f5.png) 
