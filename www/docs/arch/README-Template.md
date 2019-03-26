@@ -1,5 +1,3 @@
-# README-Template
-
 Last Edited: Mar 09, 2019 11:30 PM
 
 # Project Title
