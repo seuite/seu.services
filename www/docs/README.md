@@ -4,6 +4,8 @@
 
 ## seu.services
 
+**本社各项服务目前均处于开发阶段，一切事项均处于不稳定阶段，公共api可能随时更改！**
+
 - [镜像站](/intro/MirrorStation)
 - [东大Wiki](https://wiki.seu.services)
 - [社团平台](https://club.seu.services)
