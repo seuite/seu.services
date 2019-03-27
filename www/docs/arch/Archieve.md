@@ -38,3 +38,7 @@
 - Logo_Makerspace.png(10KB)
     - 引用：https://i.loli.net/2019/03/25/5c98422ce0d46.png
     - 删除：https://sm.ms/delete/EKY3tXNMJF9UeRw
+
+- Logo_SUS.png(17KB)
+    - 引用：https://i.loli.net/2019/03/27/5c9adea874d11.png
+    - 删除：https://sm.ms/delete/ItTcWxOnmMeykKX
