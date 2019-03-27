@@ -30,7 +30,7 @@
 
     - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[标点符号使用](https://docs.seu.services/#/Reference/SEUITEDocReference#标点符号的使用)的相关说明
 
-- 版本号的使用与版本控制均遵循[语义化版本控制规范](http://semver.org/)的要求
+- 版本号的使用与版本控制均遵循[语义化版本控制规范2.0](/Reference/SemVerReference)的要求
     - 版本号由 `主版本号.次版本号.修订号(补充信息)` 构成，其中
 
         - 主版本号：当你做了不兼容的 API 修改
