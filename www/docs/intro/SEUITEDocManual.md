@@ -14,7 +14,7 @@
     
     - 可以, or "可选的"：表示这个要求完全是可选的，你可以这样做，也可以不这样做
 
-    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/manual/SEUITEDocReference#)中对[RFC2119](https://docs.seu.services/#/manual/SEUITEDocReference#SEUITE中对RFC2119使用的解释)的相关说明
+    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[RFC2119](https://docs.seu.services/#/Reference/SEUITEDocReference#SEUITE中对RFC2119使用的解释)的相关说明
 
 - 标点符号的使用
 
@@ -28,7 +28,7 @@
 
     - 代码块中**禁止**使用全角符号，其余部分参考[代码规范]中的内容
 
-    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/manual/SEUITEDocReference#)中对[标点符号使用](https://docs.seu.services/#/manual/SEUITEDocReference#标点符号的使用)的相关说明
+    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[标点符号使用](https://docs.seu.services/#/Reference/SEUITEDocReference#标点符号的使用)的相关说明
 
 - 版本号的使用与版本控制均遵循[语义化版本控制规范](http://semver.org/)的要求
     - 版本号由 `主版本号.次版本号.修订号(补充信息)` 构成，其中
@@ -45,4 +45,4 @@
 
     - 主版本号为零（0.y.z）的软件处于开发初始阶段，一切都可能随时被改变
 
-    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/manual/SEUITEDocReference#)中对[版本管理](https://docs.seu.services/#/manual/SEUITEDocReference#版本管理)的相关说明
+    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[版本管理](https://docs.seu.services/#/Reference/SEUITEDocReference#版本管理)的相关说明
