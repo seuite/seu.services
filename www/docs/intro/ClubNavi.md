@@ -1,4 +1,4 @@
-# SEU 社团平台
+# SEU 社团导航
 
 由[SEU-ITE](https://seu-ite.github.io)创立并维护的非官方的公益性质的[社团展示平台](https://club.seu.services)。
 

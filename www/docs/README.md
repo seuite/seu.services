@@ -6,6 +6,6 @@
 
 - [镜像站](/intro/MirrorStation)
 - [东大Wiki](https://wiki.seu.services)
-- [社团平台](/intro/ClubPlatform)
+- [社团平台](https://club.seu.services)
 
 ![Hey! Susan Here~](https://i.loli.net/2019/03/21/5c93025b4a009.jpg)
