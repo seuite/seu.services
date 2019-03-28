@@ -5,25 +5,28 @@
 ## RFC2119
 关键字 "必须"，"禁止"，"被要求"，"应当"，"不应"，"推荐"，"可以"，"可选" 均遵循[RFC 2119](http://tools.ietf.org/html/rfc2119)要求，我们对原文进行了翻译和本地化，你可以在[RFC2119中文译本](/Reference/RFC2119)中找到相关内容
 
-### SEUITE 对RFC2119使用的解释
+### SEUITE对RFC2119使用的解释
 
-在SEUITE文档中，关键字 "必须"，"禁止"，"被要求"，"应当"，"不应"，"推荐"，"可以"，"可选" 均遵循[RFC 2119](http://tools.ietf.org/html/rfc2119)要求。原目录中关键字 "SHALL" 与 "SHALL NOT" 无中文对应译名，故在SEUITE文档中舍弃不用
+在SEUITE文档中，原目录中关键字 "SHALL" 与 "SHALL NOT" 无中文对应译名，故在SEUITE文档中舍弃不用
 
 ## 写作风格
 
-SEUITE 使用微软写作格式指南中推荐的方式写作，具体可以参考
+SEUITE 使用微软写作格式指南中推荐的方式写作，具体参见[Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
+
 
 ## 标点符号
 
-你**可以**参考国家标准 GB/T 15834-2011 《标点符号用法》
+你**可以**参考国家标准GB/T 15834-2011《标点符号用法》
 
-### SEUITE
+### SEUITE对标点符号使用的要求
 
 - 以下标点符号**必须**使用半角符号   
 
     - 单引号 ' 和双引号 "   
 
     - 中括号 [ ]      
+
+    - 空格
 
 - 标点符号之间不应加上空格      
 

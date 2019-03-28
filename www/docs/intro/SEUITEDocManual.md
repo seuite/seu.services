@@ -16,13 +16,26 @@
 
     - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[RFC2119](https://docs.seu.services/#/Reference/SEUITEDocReference#SEUITE中对RFC2119使用的解释)的相关说明
 
+- 写作风格
+    - 简明扼要
+    - 读者友好和可读性高
+    - 直达重点
+    - 少用标点
+    - 加上最后一个逗号
+    - 少用空格
+    - 不要用虚称开头，用动词
+    - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[写作风格](https://docs.seu.services/#/Reference/SEUITEDocReference#写作风格)的相关说明
+
 - 标点符号的使用
 
     - 以下标点符号**必须**使用半角符号
         - 单引号 ' 和双引号 "
         - 中括号 [ ]
+        - 空格
 
     - 标点符号之间不应加上空格
+
+    - 中英文之间**不应**加入空格
 
     - 同一内容块中的同一标点符号应格式一致
 
@@ -46,3 +59,4 @@
     - 主版本号为零（0.y.z）的软件处于开发初始阶段，一切都可能随时被改变
 
     - 详情参考[SEUITE文档格式规范](https://docs.seu.services/#/Reference/SEUITEDocReference#)中对[版本管理](https://docs.seu.services/#/Reference/SEUITEDocReference#版本管理)的相关说明
+
