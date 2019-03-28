@@ -1,26 +1,34 @@
-# SEUITE 文档格式规范
+# SEUITE 文档写作规范
 
 本规范适用于所有SEUITE文档，若文档内有特殊要求，以文档内为准
 
 ## RFC2119
-关键字 "必须"，"禁止"，"被要求"，"应当"，"不应"，"推荐"，"可以"，"可选" 均遵循[RFC 2119](http://tools.ietf.org/html/rfc2119)要求，我们对原文进行了翻译和本地化，你可以在[RFC2119中文译本](/Reference/RFC2119)中找到相关内容
+关键字 "必须"，"禁止"，"被要求"，"应当"，"不应"，"推荐"，"可以"，"可选" 均遵循[RFC 2119](http://tools.ietf.org/html/rfc2119)要求，对原文的翻译和本地化，你可以在[RFC2119中文译本](/Reference/RFC2119)中找到相关内容
 
 ### SEUITE对RFC2119使用的解释
 
-在SEUITE文档中，原目录中关键字 "SHALL" 与 "SHALL NOT" 无中文对应译名，故在SEUITE文档中舍弃不用
+原目录中关键字 "SHALL" 与 "SHALL NOT" 无中文对应译名，在SEUITE文档中舍弃不用
 
 ## 写作风格
 
-SEUITE 使用微软写作格式指南中推荐的方式写作，具体参见[Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
+**推荐**使用微软写作格式写作，参见[Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 
-- 简明扼要
+对部分原文档的摘要和翻译，参见[微软写作风格指南摘要及中文译本（部分）](/arch/MicrosoftStyleGuide)
+
+此外，推荐阅读如下：
+
+1. [Microsoft's brand voice: Above all, simple and human](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human)
+2. [Scannable content](https://docs.microsoft.com/en-us/style-guide/scannable-content/index)
+3. [Punctuation](https://docs.microsoft.com/en-us/style-guide/punctuation/index)
+4. [Capitalization](https://docs.microsoft.com/en-us/style-guide/capitalization)
+5. [Word choice](https://docs.microsoft.com/en-us/style-guide/word-choice/index)
+
 
 ## 标点符号
 
-你**可以**参考国家标准GB/T 15834-2011《标点符号用法》
+**可以**参考国家标准GB/T 15834-2011《标点符号用法》
 
 ### SEUITE对标点符号使用的要求
-
 - 以下标点符号**必须**使用半角符号   
     - 单引号 ' 和双引号 "   
     - 中括号 [ ]      
@@ -41,7 +49,7 @@ http://checkstyle.sourceforge.net/config.html
 
 ## 版本管理
 
-SEUITE的版本管理遵照[SemVer2.0](http://semver.org/)要求进行，我们对原文进行了翻译和本地化，你可以在[语义化版本控制2.0](/Reference/SemVerReference)找到相关内容
+遵照[SemVer2.0](http://semver.org/)要求进行，对原文的翻译和本地化，见[语义化版本控制2.0](/Reference/SemVerReference)
 
 ### SEUITE 对附加版本号的相关解释
 
