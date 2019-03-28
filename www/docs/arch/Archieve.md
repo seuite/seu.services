@@ -42,3 +42,7 @@
 - Logo_SUS.png(17KB)
     - 引用：https://i.loli.net/2019/03/27/5c9adea874d11.png
     - 删除：https://sm.ms/delete/ItTcWxOnmMeykKX
+
+- Logo_CPC.jpg(16.5KB)
+    - 引用：https://i.loli.net/2019/03/28/5c9cdc6a75c95.jpg
+    - 删除：https://sm.ms/delete/XT1BKoMjx52uAwb
