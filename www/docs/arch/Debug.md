@@ -19,3 +19,12 @@ MarkDown形式的锚点目标的定义其实就是[标题][标题的定义]的�
 
 ## frp 设置
 
+## nginx访问镜像站（文件服务器）403
+
+1. 检查权限
+2. 在配置文件中加入如下部分
+```
+autoindex on;   #允许nginx在浏览器以文件夹形式访问
+autoindex_exact_size off;  #显示文件大小
+autoindex_localtime on;    #显示文件时间
+```
