@@ -99,7 +99,7 @@ ca_cert = ""
 ### worker配置(worker-'$workername'.conf)
 ```
 [global]
-name = "centos_worker"
+name = "some worker"
 log_dir = "/home/mirrors/log/tunasync/{{.Name}}"
 mirror_dir = "/home/mirrors"
 concurrent = 10
@@ -125,7 +125,7 @@ ssl_key = ""
 [[mirrors]]
 name = "centos"
 provider = "rsync"
-upstream = "rsync://mirrors.tuna.tsinghua.edu.cn/centos/"
+upstream = "rsync://examle.com/mirrors"
 use_ipv6 = false
 ```
 - [global]
@@ -176,6 +176,11 @@ tunasync同时提供了管理工具tunasynctl，可以用于对镜像服务做�
 wget -c http://localhost:14242/jobs -O /mirrors/jobs.json -o /mirrors/log/plog/wget.log
 ```
 以上任务可以整合为crontab定时任务，并同步到 web 前端页面中。
+
+- 删除worker进程
+```
+tunasynctl rm-worker -w <worker-id>
+```
 
 ## 提供服务
 

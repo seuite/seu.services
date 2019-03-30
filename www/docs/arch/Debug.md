@@ -26,6 +26,7 @@ docker exec -it <container id> <path_of_nginx> -s reload
 
 ## frp 设置
 
+
 ## Ubuntu ufw 设置
 ubuntu 9.10默认的是UFW防火墙，已经支持界面操作了。在命令行运行ufw命令就可以看到提示的一系列可进行的操作。
 
@@ -164,3 +165,15 @@ ufw allow/deny servicename:ufw从/etc/services中找到对应service的端口，
 ufw allow proto tcp from 10.0.1.0/10 to 本机ip port 25:允许自10.0.1.0/10的tcp封包访问本机的25端口。
 
 ufw delete allow/deny 20:删除以前定义的"允许/拒绝访问20端口"的规则
+
+
+## nginx访问镜像站（文件服务器）403
+
+1. 检查权限
+2. 在配置文件中加入如下部分
+```
+autoindex on;   #允许nginx在浏览器以文件夹形式访问
+autoindex_exact_size off;  #显示文件大小
+autoindex_localtime on;    #显示文件时间
+```
+
