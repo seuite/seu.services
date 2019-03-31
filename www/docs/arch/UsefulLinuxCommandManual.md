@@ -221,3 +221,6 @@ SSH 内置命令
 
 ## 网易云音乐外链链接
     http://music.163.com/song/media/outer/url?id=ID数字.mp3
+
+## 一行代码登录seu-wlan
+curl -3 'https://w.seu.edu.cn/portal/login.php' -d 'username=your_username' -d 'password=your_password'
