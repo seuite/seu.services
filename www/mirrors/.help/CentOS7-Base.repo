@@ -12,41 +12,41 @@
 
 [base]
 name=CentOS-7 - Base
-baseurl=http://mymirrorsite/centos/7/os/$basearch/
+baseurl=http://mirrors.seu.services/centos/7/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=os
 gpgcheck=1
-gpgkey=http://mymirrorsite/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.seu.services/centos/RPM-GPG-KEY-CentOS-7
 
 #released updates
 [updates]
 name=CentOS-7 - Updates
-baseurl=http://mymirrorsite/centos/7/updates/$basearch/
+baseurl=http://mirrors.seu.services/centos/7/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=updates
 gpgcheck=1
-gpgkey=http://mymirrorsite/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.seu.services/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that may be useful
 [extras]
 name=CentOS-7 - Extras
-baseurl=http://mymirrorsite/centos/7/extras/$basearch/
+baseurl=http://mirrors.seu.services/centos/7/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=extras
 gpgcheck=1
-gpgkey=http://mymirrorsite/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.seu.services/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that extend functionality of existing packages
 [centosplus]
 name=CentOS-7 - Plus
-baseurl=http://mymirrorsite/centos/7/centosplus/$basearch/
+baseurl=http://mirrors.seu.services/centos/7/centosplus/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=centosplus
 gpgcheck=1
 enabled=0
-gpgkey=http://mymirrorsite/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.seu.services/centos/RPM-GPG-KEY-CentOS-7
 
 #contrib - packages by Centos Users
 [contrib]
 name=CentOS-7 - Contrib
-baseurl=http://mymirrorsite/centos/7/contrib/$basearch/
+baseurl=http://mirrors.seu.services/centos/7/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7&arch=$basearch&repo=contrib
 gpgcheck=1
 enabled=0
-gpgkey=http://mymirrorsite/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.seu.services/centos/RPM-GPG-KEY-CentOS-7
